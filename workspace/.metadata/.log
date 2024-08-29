@@ -1,0 +1,218 @@
+!SESSION 2024-07-25 15:40:30.704 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho3128049946985139260secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho3128049946985139260secure_storage
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-07-25 15:40:30.704
+!MESSAGE Connection to http://download.eclipse.org/releases/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2024-07-27 16:53:36.806 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho8167886770851579708secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho8167886770851579708secure_storage
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-07-27 16:53:36.806
+!MESSAGE Connection to http://download.eclipse.org/releases/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2024-07-27 17:07:11.469 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho7177828078809337038secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho7177828078809337038secure_storage
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2024-07-27 17:07:11.470
+!MESSAGE Connection to http://download.eclipse.org/releases/neon/aqui/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2024-07-31 11:42:32.783 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho4998861233362963061secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho4998861233362963061secure_storage
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 0 2024-07-31 11:42:32.783
+!MESSAGE Unexpected error loading extension: org.eclipse.equinox.p2.updatesite.metadataRepository
+!STACK 0
+java.lang.ClassCastException: org.eclipse.tycho.p2.remote.RemoteMetadataRepositoryManager cannot be cast to org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager
+	at org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository.setProperty(LocalMetadataRepository.java:325)
+	at org.eclipse.equinox.p2.repository.spi.AbstractRepository.setProperty(AbstractRepository.java:189)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.resetCache(UpdateSiteMetadataRepositoryFactory.java:81)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:61)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.tycho.p2.remote.RemoteMetadataRepositoryManager.loadRepository(RemoteMetadataRepositoryManager.java:61)
+	at org.eclipse.tycho.p2.remote.RemoteMetadataRepositoryManager.loadRepository(RemoteMetadataRepositoryManager.java:53)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolver$LoadedIULocation.loadRepository(TargetDefinitionResolver.java:288)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolver$LoadedIULocation.<init>(TargetDefinitionResolver.java:282)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolver$ResolverRun.addLocation(TargetDefinitionResolver.java:154)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolver.resolveContentWithExceptions(TargetDefinitionResolver.java:121)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolver.resolveContent(TargetDefinitionResolver.java:94)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolverService.resolveFromArguments(TargetDefinitionResolverService.java:70)
+	at org.eclipse.tycho.p2.target.TargetDefinitionResolverService.getTargetDefinitionContent(TargetDefinitionResolverService.java:60)
+	at org.eclipse.tycho.p2.target.TargetPlatformFactoryImpl.resolveTargetDefinitions(TargetPlatformFactoryImpl.java:214)
+	at org.eclipse.tycho.p2.target.TargetPlatformFactoryImpl.createTargetPlatform(TargetPlatformFactoryImpl.java:155)
+	at org.eclipse.tycho.p2.target.TargetPlatformFactoryImpl.createTargetPlatform(TargetPlatformFactoryImpl.java:128)
+	at org.eclipse.tycho.p2.target.TargetPlatformFactoryImpl.createTargetPlatform(TargetPlatformFactoryImpl.java:1)
+	at org.eclipse.tycho.p2.manager.ReactorRepositoryManagerImpl.computePreliminaryTargetPlatform(ReactorRepositoryManagerImpl.java:84)
+	at org.eclipse.tycho.p2.resolver.P2DependencyResolver.computePreliminaryTargetPlatform(P2DependencyResolver.java:223)
+	at org.eclipse.tycho.core.resolver.DefaultTychoResolver.resolveProject(DefaultTychoResolver.java:109)
+	at org.eclipse.tycho.core.maven.TychoMavenLifecycleParticipant.afterProjectsRead(TychoMavenLifecycleParticipant.java:95)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:223)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:903)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:280)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+!SESSION 2024-08-01 13:29:23.207 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho6636125945731241943secure_storage
+Command-line arguments:  -eclipse.keyring C:\Users\Jhonny\AppData\Local\Temp\tycho6636125945731241943secure_storage
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2024-08-01 13:29:23.207
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-08-01 13:29:23.207
+!MESSAGE session context was:(profile=org.eclipse.papyrus.information.modeling, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2024-08-01 13:29:23.207
+!MESSAGE Error closing the output stream for org.eclipse.update.feature,org.eclipse.papyrus.infra.viewpoints.feature,2.0.0.201612071107 on repository file:/C:/Users/Jhonny/Downloads/Compressed/tt_3/releng/org.eclipse.papyrus.information.modeling.product/target/products/org.eclipse.papyrus.information.modeling.product/win32/win32/x86_64/DEA/.
+!STACK 0
+java.io.IOException: Error unzipping C:\Users\Jhonny\AppData\Local\Temp\org.eclipse.papyrus.infra.viewpoints.feature_2.0.0.2016120711077463617839279805373.jar: Invalid zip file format
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.unzipFile(FileUtils.java:77)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository$ZippedFolderOutputStream.close(SimpleArtifactRepository.java:194)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository$ArtifactOutputStream.close(SimpleArtifactRepository.java:122)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:304)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:223)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:153)
+	at org.eclipse.tycho.repository.p2base.artifact.repository.AbstractArtifactRepository2.getArtifacts(AbstractArtifactRepository2.java:349)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.fetch(DownloadManager.java:112)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:100)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:42)
+	at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:24)
+	at org.eclipse.equinox.internal.p2.director.app.DirectorApplication.executePlan(DirectorApplication.java:813)
+	at org.eclipse.equinox.internal.p2.director.app.DirectorApplication.planAndExecute(DirectorApplication.java:806)
+	at org.eclipse.equinox.internal.p2.director.app.DirectorApplication.performProvisioningActions(DirectorApplication.java:793)
+	at org.eclipse.equinox.internal.p2.director.app.DirectorApplication.run(DirectorApplication.java:1111)
+	at org.eclipse.tycho.p2.tools.director.DirectorApplicationWrapper$DirectorApplicationWrapperCommand.execute(DirectorApplicationWrapper.java:45)
+	at org.eclipse.tycho.plugins.p2.director.DirectorMojo.execute(DirectorMojo.java:141)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:903)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:280)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+Caused by: java.io.IOException: Invalid zip file format
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.unzipStream(FileUtils.java:114)
+	at org.eclipse.equinox.internal.p2.core.helpers.FileUtils.unzipFile(FileUtils.java:74)
+	... 50 more

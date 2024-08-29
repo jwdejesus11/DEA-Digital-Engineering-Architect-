@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.plugins.git.RevisionParameterAction>
+      <commit>81a6d6f2b134e178e7db9eb68fab0e9957af88b1</commit>
+    </hudson.plugins.git.RevisionParameterAction>
+    <hudson.model.ParametersAction>
+      <parameters class="java.util.Arrays$ArrayList">
+        <a class="hudson.model.ParameterValue-array">
+          <hudson.model.StringParameterValue>
+            <name>trainName</name>
+            <description>&lt;p&gt;Name of the yearly release train. Note, for &quot;updates&quot;, it is still the main name, such as &apos;neon&apos;, not neon.1. 
+The name should be all lowercase, as it would be in a URL.&lt;/p&gt; 
+</description>
+            <value>neon</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>triggerBuildTimestamp</name>
+            <value>2016-12-07_18-06-05</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>triggerJobName</name>
+            <value>simrel.neon.runaggregator.BUILD_CACHED</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>triggerJobNumber</name>
+            <value>767</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>toolsRepoCommit</name>
+            <value>84d5691fcd549370bcfd84385d7d03d546121909</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>triggerBuildId</name>
+            <value>2016-12-07_18-06-05</value>
+          </hudson.model.StringParameterValue>
+          <hudson.model.StringParameterValue>
+            <name>buildModelCommit</name>
+            <value>81a6d6f2b134e178e7db9eb68fab0e9957af88b1</value>
+          </hudson.model.StringParameterValue>
+        </a>
+      </parameters>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>simrel.neon.runaggregator.BUILD_CACHED</upstreamProject>
+          <upstreamUrl>job/simrel.neon.runaggregator.BUILD_CACHED/</upstreamUrl>
+          <upstreamBuild>767</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UpstreamCause>
+              <upstreamProject>simrel.neon.runaggregator.VALIDATE</upstreamProject>
+              <upstreamUrl>job/simrel.neon.runaggregator.VALIDATE/</upstreamUrl>
+              <upstreamBuild>853</upstreamBuild>
+              <upstreamCauses>
+                <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+              </upstreamCauses>
+            </hudson.model.Cause_-UpstreamCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData>
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <revision>
+              <sha1>732b3cbf70b6b468d57657b3421581e4bf4b293c</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>591</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/Neon_maintenance</string>
+          <hudson.plugins.git.util.Build>
+            <revision>
+              <sha1>3795fec30754dd4a52e9378ae761ce641362c00a</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/Neon_maintenance</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>776</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>detached</string>
+          <hudson.plugins.git.util.Build>
+            <revision>
+              <sha1>81a6d6f2b134e178e7db9eb68fab0e9957af88b1</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>detached</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>813</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+        <entry>
+          <string>origin/Neon.1-fixes</string>
+          <hudson.plugins.git.util.Build>
+            <revision>
+              <sha1>93cf1a5aa3133cc6ab19b15c862004e48df485e3</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/Neon.1-fixes</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>709</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry[3]/hudson.plugins.git.util.Build"/>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.tasks.MailMessageIdAction>
+      <messageId>&lt;826753952.491.1481157418648.JavaMail.&quot;genie.simrel&quot;@hipp8&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+    <com.sonyericsson.rebuild.RebuildAction>
+      <rebuildurl>../buildWithParameters?buildModelCommit=81a6d6f2b134e178e7db9eb68fab0e9957af88b1&amp;toolsRepoCommit=84d5691fcd549370bcfd84385d7d03d546121909&amp;trainName=neon&amp;triggerBuildId=2016-12-07_18-06-05&amp;triggerBuildTimestamp=2016-12-07_18-06-05&amp;triggerJobName=simrel.neon.runaggregator.BUILD_CACHED&amp;triggerJobNumber=767</rebuildurl>
+    </com.sonyericsson.rebuild.RebuildAction>
+    <hudson.plugins.disk__usage.BuildDiskUsageAction>
+      <diskUsage>
+        <buildUsage>2780609690</buildUsage>
+        <wsUsage>0</wsUsage>
+      </diskUsage>
+      <build class="build" reference="../../.."/>
+    </hudson.plugins.disk__usage.BuildDiskUsageAction>
+  </actions>
+  <number>813</number>
+  <result>SUCCESS</result>
+  <duration>4667516</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/home/hudson/genie.simrel/.hudson/jobs/simrel.neon.runaggregator.BUILD__CLEAN/workspace</workspace>
+  <hudsonVersion>3.3.3</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits>
+    <string>Stephan Herrmann</string>
+  </culprits>
+</build>

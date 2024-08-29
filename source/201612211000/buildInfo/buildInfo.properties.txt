@@ -1,0 +1,8 @@
+#Wed, 07 Dec 2016 19:23:23 -0500
+
+buildModelCommit=81a6d6f2b134e178e7db9eb68fab0e9957af88b1
+toolsRepoCommit=84d5691fcd549370bcfd84385d7d03d546121909
+triggerJobName=simrel.neon.runaggregator.BUILD__CLEAN
+triggerJobNumber=813
+triggerBuildTimestamp=2016-12-07_18-19-11
+triggerBuildId=2016-12-07_18-19-11

@@ -1,0 +1,12 @@
+Changes in branch detached, between 331c51c6a3ff75aaff89da07eff7bef2171a9042 and 81a6d6f2b134e178e7db9eb68fab0e9957af88b1
+commit 81a6d6f2b134e178e7db9eb68fab0e9957af88b1
+tree 383db98bc0b9b59aa364b97d88859c549304edb8
+parent 331c51c6a3ff75aaff89da07eff7bef2171a9042
+author Stephan Herrmann <stephan.herrmann@berlin.de> 1481150995 +0100
+committer Stephan Herrmann <stephan.herrmann@berlin.de> 1481150995 +0100
+
+    Object Teams 2.5.2 RC4a for Neon.2 RC4
+    
+    Change-Id: Ie7219ba2ea0119715c25a2c4b962a5eb48f1a484
+
+:100644 100644 b4452d713da244420561487033a672c5ebfa62ba 904dfb7d80e5fa841d20b251fceb312aa47bedd0 M	objectteams.aggrcon
