@@ -48,11 +48,15 @@
       <unit id="org.eclipse.xtext.xbase.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.xtext.xbase.lib.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.xwt.feature.feature.group" version="0.0.0"/>
-<repository id="eclipse-neon" location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3/source/201612211000"/>
+<repository id="eclipse-neon" 
+location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3 - copia (2)/source/201612211000" 
+/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.e4.tools.spies.feature.feature.group" version="0.0.0"/>
-<repository id="e4-tools" location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3/source/org.eclipse.e4.tools"/>
+<repository id="e4-tools" 
+location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3 - copia (2)/source/org.eclipse.e4.tools" 
+/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.apache.batik.bridge" version="1.6.0.v201011041432"/>
@@ -66,7 +70,9 @@
       <unit id="org.apache.batik.transcoder" version="1.6.0.v201011041432"/>
       <unit id="org.apache.batik.xml" version="1.6.0.v201011041432"/>
       <unit id="org.apache.batik.util" version="1.6.0.v201011041432"/>
-<repository id="orbit" location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3/source/orbit-buildrepo-R20160221192158"/>
+<repository id="orbit"
+location="file:/C:/Users/Jhonny/Downloads/Compressed/tt_3 - copia (2)/source/orbit-buildrepo-R20160221192158" 
+/>
 </location>
   </locations>
 </target>

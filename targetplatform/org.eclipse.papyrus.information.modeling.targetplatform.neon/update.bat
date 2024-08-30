@@ -4,50 +4,66 @@ setlocal enabledelayedexpansion
 REM Obtener la ruta del directorio actual
 set "currentDir=%~dp0"
 
+REM Mostrar la ruta actual
+echo La ruta actual es: %currentDir%
+
+REM Guardar la ruta actual en una variable
+set "originalDir=%currentDir%"
+
 REM Subir dos niveles desde la ubicación actual del script
 set "baseDir=%currentDir%..\.."
-
-REM Ruta al archivo routes.txt
-set "routesFilePath=%currentDir%routes.txt"
+for %%i in ("%baseDir%") do set "baseDir=%%~fi"
 
 REM Crear las rutas especificadas
 set "route1Path=%baseDir%\source\201612211000"
 set "route2Path=%baseDir%\source\org.eclipse.e4.tools"
 set "route3Path=%baseDir%\source\orbit-buildrepo-R20160221192158"
 
-REM Crear las carpetas si no existen
-if not exist "%route1Path%" mkdir "%route1Path%"
-if not exist "%route2Path%" mkdir "%route2Path%"
-if not exist "%route3Path%" mkdir "%route3Path%"
-
 REM Convertir las rutas a URIs válidas
-for %%i in ("%route1Path%") do set "route1=file:/%%~fi"
-for %%i in ("%route2Path%") do set "route2=file:/%%~fi"
-for %%i in ("%route3Path%") do set "route3=file:/%%~fi"
+for %%i in ("%route1Path%") do set "route1Path=location="file:/%%~fi""
+for %%i in ("%route2Path%") do set "route2Path=location="file:/%%~fi""
+for %%i in ("%route3Path%") do set "route3Path=location="file:/%%~fi""
 
 REM Reemplazar las barras invertidas por barras diagonales
-set "route1=%route1:\=/%"
-set "route2=%route2:\=/%"
-set "route3=%route3:\=/%"
+set "route1Path=%route1Path:\=/%"
+set "route2Path=%route2Path:\=/%"
+set "route3Path=%route3Path:\=/%"
+
+REM Mostrar las nuevas rutas
+echo Ruta 1: %route1Path%
+echo Ruta 2: %route2Path%
+echo Ruta 3: %route3Path%
+
+REM Regresar a la ruta original
+cd /d %currentDir%
+
+REM Mostrar la ruta actual después de regresar
+echo De vuelta a la ruta original: %currentDir%
+
+REM Ruta al archivo routes.txt
+set "routesFilePath=%currentDir%routes.txt"
+
+echo %routesFilePath%
 
 REM Borrar el contenido del archivo routes.txt y escribir las nuevas rutas
-(
-    echo %route1%
-    echo %route2%
-    echo %route3%
-) > "%routesFilePath%"
+echo %route1Path% > "%routesFilePath%"
+echo %route2Path% >> "%routesFilePath%"
+echo %route3Path% >> "%routesFilePath%"
 
-REM Leer las primeras tres líneas del archivo routes.txt nuevamente
-set "route1="
-set "route2="
-set "route3="
-for /f "tokens=1* delims=:" %%a in ('findstr /n "^" "%routesFilePath%"') do (
-    if "%%a"=="1" set "route1=%%b"
-    if "%%a"=="2" set "route2=%%b"
-    if "%%a"=="3" set "route3=%%b"
-    if defined route3 goto :break
+REM Mostrar el contenido del archivo routes.txt
+type "%routesFilePath%"
+
+REM Leer las líneas del archivo routes.txt
+set "line1="
+set "line2="
+set "line3="
+set "lineNumber=0"
+for /f "delims=" %%i in ('type "!routesFilePath!"') do (
+    set /a lineNumber+=1
+    if !lineNumber! equ 1 set "line1=%%i"
+    if !lineNumber! equ 2 set "line2=%%i"
+    if !lineNumber! equ 3 set "line3=%%i"
 )
-:break
 
 REM Ruta al archivo de definición de target
 set "targetFilePath=%currentDir%org.eclipse.papyrus.information.modeling.targetplatform.neon.target"
@@ -55,16 +71,14 @@ set "targetFilePath=%currentDir%org.eclipse.papyrus.information.modeling.targetp
 REM Leer el contenido del archivo de definición de target y reemplazar las rutas en las líneas específicas
 set "tempFile=%targetFilePath%.tmp"
 set "lineNumber=0"
-(for /f "delims=" %%i in (%targetFilePath%) do (
+(for /f "delims=" %%i in ('type "%targetFilePath%"') do (
     set /a lineNumber+=1
     set "line=%%i"
-    if !lineNumber! equ 51 set "line=<repository id="eclipse-neon" location="%route1%"/>"
-    if !lineNumber! equ 55 set "line=<repository id="e4-tools" location="%route2%"/>"
-    if !lineNumber! equ 69 set "line=<repository id="orbit" location="%route3%"/>"
+    if !lineNumber! equ 52 set line=%line1%
+    if !lineNumber! equ 58 set line=%line2%
+    if !lineNumber! equ 74 set line=%line3%
     echo !line!
-)) > %tempFile%
+)) > "%tempFile%"
 
 REM Reemplazar el archivo original con el archivo temporal
-move /y %tempFile% %targetFilePath%
-
-echo Archivo de definición de target actualizado con las nuevas rutas.
+move /y "%tempFile%" "%targetFilePath%"
