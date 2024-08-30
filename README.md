@@ -19,7 +19,7 @@ In order to run the build of this application you need to have [Apache Maven](ht
 
 through this official link of [Oracle](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
-### Building the product on your machine
+### Building the product on your machine 📌
 
 To perform the dynamic installation, the
 
