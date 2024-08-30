@@ -14,9 +14,8 @@ In order to run the build of this application you need to have [Apache Maven](ht
 
 ### Downloading the dependencies to run the application
 
-- [jdk-8u202-windows-x64.exe](x64)
-  or
-- [jdk-8u202-windows-i586.exe](x86)
+- [jdk-8u202-windows-x64.exe](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
+- [jdk-8u202-windows-i586.exe](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html#license-lightbox)
 
 through this official link of [Oracle](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
