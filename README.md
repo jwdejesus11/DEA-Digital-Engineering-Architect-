@@ -2,7 +2,7 @@
 
 DEA Information Modeling is a Papyrus-based modeling product that is customized and streamlined for users interested in modeling the static structure of information with UML class diagrams. For more information, please also confer the [Eclipse Wiki](https://wiki.eclipse.org/Papyrus_for_Information_Modeling). This read-me file rather addresses developers and contributors.
 
-## Building the product
+## Building the product 🚀
 
 When downloading the repository you must enable git long path access:
 
@@ -14,9 +14,9 @@ In order to run the build of this application you need to have [Apache Maven](ht
 
 ### Downloading the dependencies to run the application
 
-@@[jdk-8u202-windows-x64.exe]
-or
-@@[jdk-8u202-windows-i586.exe] (x86 version)
+- [jdk-8u202-windows-x64.exe](x64)
+  or
+- [jdk-8u202-windows-i586.exe](x86)
 
 through this official link of [Oracle](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
