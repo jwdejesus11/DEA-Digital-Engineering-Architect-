@@ -21,7 +21,13 @@ through this official link of [Oracle](https://www.oracle.com/java/technologies/
 
 ### Building the product on your machine
 
-To perform the dynamic installation, the [install.bat] file must be executed in the branch of the project
+To perform the dynamic installation, the
+
+```
+install.bat
+```
+
+file must be executed in the branch of the project
 
 Once all the internal build process is done, the application is packaged in several zips for different systems and under this path:
 
